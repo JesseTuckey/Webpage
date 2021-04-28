@@ -16,87 +16,76 @@ body {
 
 .header {
   padding: 20px;
-  text-align: center;
-  background: darkblue;
-  color: gold;
+  background: royalblue;
+  color: white;
 }
 
 .header h1 {
   font-size: 40px;
+  text-align: left;
 }
+
+.header p {
+  text-align: right;
+
+}
+
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: darkblue;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: right;
+  float: left;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 20px 20px;
   text-decoration: none;
 }
 
 .navbar a.right {
-  float: right;
+  float: left;
 }
 
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: gold;
   color: black;
 }
 
-/* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
+.education {   
+  background-color: white;
   padding: 20px;
+      width: 100%;
+
 }
 
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: lightblue;
-  padding: 20px;
-}
-
-.main2 {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
+.skills {   
   background-color: royalblue;
   color: white;
   padding: 20px;
+      width: 100%;
+      text-align: right;
+
 }
-  
-  .main3 {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: royalblue;
-  color: white;
+
+.experience {   
+  background-color: white;
+  color: black;
   padding: 20px;
+      width: 100%;
+
 }
 
-
-/* Footer */
 .footer {
-  padding: 5px;
+  padding: 2px;
   text-align: center;
     width: 100%;
 
-  background: white;
+  background: RoyalBlue;
 }
 
 @media screen and (max-width: 700px) {
@@ -116,15 +105,36 @@ body {
   background-color: DodgerBlue;
   border: none;
   color: white;
-  padding: 12px 30px;
+  padding: 20px 20px;
   cursor: pointer;
   font-size: 20px;
+  float:right;
 }
 
-/* Darker background on mouse-over */
 .btn:hover {
-  background-color: RoyalBlue;
+  background-color: gold;
 }
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: gold;
+  background-color: transparent;
+}
+a:active {
+  color: pink;
+  background-color: transparent;
+}
+
 
 </style>
 
@@ -134,29 +144,23 @@ body {
 
 <div class="header">
   <h1>Jesse Tuckey</h1>
+ 
+	<p><a href="mailto:jessetuckey@trentu.ca">jessetuckey@trentu.ca</a></p>
+	<p><a href="linkedin.com/in/jessetuckey">linkedin.com/in/jessetuckey</a></p>
+    <p>Barrie, Ontario, Canada<br>
+    <p>(705) 790-5757</p>
 </div>
 
 <div class="navbar">
-  <a href="#" class="right">Education</a>
-    <a href="#" class="right">Experience</a> 
-    <a href="#" class="right">Skills</a>
+    <button class="btn"><i class="fa fa-download"></i>Download pdf version</button>
+
+  <a href="#" class="left">Education</a>
+   <a href="#" class="left">Skills</a>
+   <a href="#" class="left">Experience</a> 
+
 </div>
-
-<div class="row">
-  <div class="side">
-    <h3>About Me</h3>
-    <p>jessetuckey@trentu.ca</p>
-    <p>linkedin.com/in/jessetuckey</p>
-    <p>Barrie, Ontario, Canada</p>
-    <p>(705) 790-5757</p>
-<button class="btn"><i class="fa fa-download"></i>pdf version</button>
-
-
-
-  </div>
   
-  
-  <div class="main">
+  <div class="education">
     <h2>Education</h2>
     <h4>St. Peters Catholic Secondary School (2015)</h4>
     <p>Graduated with the Ontario Scholars award for having an 80% average.</p>
@@ -166,7 +170,7 @@ body {
     <p>Computer Systems Technician</p>
 </div>
 
-  <div class="main2">
+  <div class="skills">
     <h2>Skills</h2>
     <p>Strong communicator and collaborator.
     <br>Excels in a fast paced work environment.
@@ -185,9 +189,9 @@ body {
 </div>
 
 
-  <div class="main3">
+  <div class="experience">
     <h2>Experience</h2>
-    <h4>Customer Service Representative. June, 2019 </h4>.
+    <h4>Customer Service Representative. June, 2019 </h4>
 <h5>Baker Real Estate Incorporated (United Building project) - 741 University Ave. </h5> Toronto, Ontario. 
 Responsible for new and existing customer relations, provided information and
 acquired attendees for a commercial real estate presentation.
@@ -221,4 +225,3 @@ Handled monetary transactions. </p>
 
 </body>
 </html>
-
