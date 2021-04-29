@@ -16,7 +16,7 @@ body {
 
 .header {
   padding: 20px;
-  background: royalblue;
+  background: darkblue;
   color: white;
 }
 
@@ -33,7 +33,13 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: darkblue;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fc5d68+0,febf04+100 */
+background: #fc5d68; /* Old browsers */
+background: -moz-linear-gradient(left,  #fc5d68 0%, #febf04 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #fc5d68 0%,#febf04 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #fc5d68 0%,#febf04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc5d68', endColorstr='#febf04',GradientType=1 ); /* IE6-9 */
+
 }
 
 /* Style the navigation bar links */
@@ -56,14 +62,14 @@ body {
 }
 
 
-.education {   
+.education {
   background-color: white;
   padding: 20px;
       width: 100%;
 
 }
 
-.skills {   
+.skills {
   background-color: royalblue;
   color: white;
   padding: 20px;
@@ -72,7 +78,7 @@ body {
 
 }
 
-.experience {   
+.experience {
   background-color: white;
   color: black;
   padding: 20px;
@@ -89,7 +95,7 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  .row {   
+  .row {
     flex-direction: column;
   }
 }
@@ -100,22 +106,6 @@ body {
     width: 100%;
   }
 }
-
-.btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 20px 20px;
-  cursor: pointer;
-  font-size: 20px;
-  float:right;
-}
-
-.btn:hover {
-  background-color: gold;
-}
-
-
 a:link {
   color: white;
   background-color: transparent;
@@ -143,30 +133,33 @@ a:active {
 <body>
 
 <div class="header">
-  <h1>Jesse Tuckey</h1>
- 
+  <h1> Jesse Tuckey</h1>
+  <img src="‪logo.png" alt="Trulli" width="500" height="333">
+
 	<p><a href="mailto:jessetuckey@trentu.ca">jessetuckey@trentu.ca</a></p>
-	<p><a href="linkedin.com/in/jessetuckey">linkedin.com/in/jessetuckey</a></p>
+	<p><a href="https://linkedin.com/in/jesse-tuckey">linkedin.com/in/jesse-tuckey</a></p>
+
     <p>Barrie, Ontario, Canada<br>
     <p>(705) 790-5757</p>
 </div>
 
 <div class="navbar">
-    <button class="btn"><i class="fa fa-download"></i>Download pdf version</button>
 
-  <a href="#" class="left">Education</a>
+   <a href="#" class="left">Education</a>
    <a href="#" class="left">Skills</a>
-   <a href="#" class="left">Experience</a> 
+   <a href="#" class="left">Experience</a>
+   <a href="file:///C:/Users/jt_ho/Documents/jessetuckey.pdf" class="right" download="file:///C:/Users/jt_ho/Documents/jessetuckey.pdf">Resume</a>
+
 
 </div>
-  
+
   <div class="education">
     <h2>Education</h2>
     <h4>St. Peters Catholic Secondary School (2015)</h4>
     <p>Graduated with the Ontario Scholars award for having an 80% average.</p>
     <h4>Trent University (2019)</h4>
     <p>Bachelor's Degree for Computing and Information Systems.</p>
-<h4>Georgian College (2021)</h4> 
+<h4>Georgian College (2021)</h4>
     <p>Computer Systems Technician</p>
 </div>
 
@@ -176,11 +169,11 @@ a:active {
     <br>Excels in a fast paced work environment.
     <br> Excellent with time management and meeting deadlines.
     <br>Strong work ethic, punctual and positive attitude.</p>
-    
+
     <br>
-    
+
     <p>Proficient with Windows, Linux, Fedora and OS X operating systems. <br>
-    
+
 <br>Experienced with all Microsoft Office applications, Photoshop and Visual Studio.
 <br>Capable with computer troubleshooting and administration.
 <br>G class drivers license and car.
@@ -192,17 +185,17 @@ a:active {
   <div class="experience">
     <h2>Experience</h2>
     <h4>Customer Service Representative. June, 2019 </h4>
-<h5>Baker Real Estate Incorporated (United Building project) - 741 University Ave. </h5> Toronto, Ontario. 
+<h5>Baker Real Estate Incorporated (United Building project) - 741 University Ave. </h5> Toronto, Ontario.
 Responsible for new and existing customer relations, provided information and
 acquired attendees for a commercial real estate presentation.
 Database and spreadsheet management and manipulation.
-Formal office environment. 
+Formal office environment.
 Event preparation.
 <br>
 
 <h4>Production Associate. May 2016 – Present</h4>
 <h5>Fresh Mix Limited - 530 Welham Rd, Barrie, Ontario.</h5>
-Collaborative work environment. 
+Collaborative work environment.
 Prepared, cleaned and packaged produce.
 Inventory managed and organized.
 Worked with hazardous cleaning materials.
@@ -211,7 +204,7 @@ Physical labour and heavy lifting.
 
 <h4>Cashier and Crew Member.  Sept 2013 – May 2016. </h4>
 <h5>McDonald’s - 347 Yonge Street, Barrie, On.</h5>
-Exceptional customer service skills. 
+Exceptional customer service skills.
 Collaborated,  maintained a fast and high quality level of service.
 Received orders from customers and inputed their selections into the restaurant’s computer systems.
 Inventory Management.
