@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>jessetuckey.com</title>
+<title>jessetuckey.ca</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -12,21 +12,30 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  background: darkblue;
+  
+
 }
 
 .header {
   padding: 20px;
-  background: darkblue;
+  background:darkblue;
   color: white;
+  width: 100%;
+  padding: 30px 30px;
+
+
 }
 
 .header h1 {
-  font-size: 40px;
-  text-align: left;
+  font-size: 450%;
+  text-align: right;
 }
 
 .header p {
   text-align: right;
+  font-size: 130%;
+
 
 }
 
@@ -39,17 +48,21 @@ background: -moz-linear-gradient(left,  #fc5d68 0%, #febf04 100%); /* FF3.6-15 *
 background: -webkit-linear-gradient(left,  #fc5d68 0%,#febf04 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to right,  #fc5d68 0%,#febf04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc5d68', endColorstr='#febf04',GradientType=1 ); /* IE6-9 */
+width: 100%;
 
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
+  float:right;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
-  padding: 20px 20px;
+  padding: 30px 20px;
   text-decoration: none;
+  font-size: 120%;
+
+
 }
 
 .navbar a.right {
@@ -66,15 +79,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc5d68', end
   background-color: white;
   padding: 20px;
       width: 100%;
-
 }
 
 .skills {
-  background-color: royalblue;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 20px;
       width: 100%;
-      text-align: right;
+      text-align: center;
+      font-size: 120%;
+
+
 
 }
 
@@ -91,7 +106,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc5d68', end
   text-align: center;
     width: 100%;
 
-  background: RoyalBlue;
+  background: darkblue;
 }
 
 @media screen and (max-width: 700px) {
@@ -112,7 +127,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: pink;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
@@ -121,97 +136,141 @@ a:hover {
   background-color: transparent;
 }
 a:active {
-  color: pink;
+  color: indigo;
   background-color: transparent;
 }
 
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
-
-
 </head>
-<body>
 
 <div class="header">
+<div class="column">
   <h1> Jesse Tuckey</h1>
-  <img src="‪logo.png" alt="Trulli" width="500" height="333">
-
-	<p><a href="mailto:jessetuckey@trentu.ca">jessetuckey@trentu.ca</a></p>
-	<p><a href="https://linkedin.com/in/jesse-tuckey">linkedin.com/in/jesse-tuckey</a></p>
-
-    <p>Barrie, Ontario, Canada<br>
-    <p>(705) 790-5757</p>
 </div>
+<div class="row">
+ <div class="column">
+   <p><a href="mailto:jessetuckey@trentu.ca">jessetuckey@trentu.ca</a></p>
+   <p><a href="https://linkedin.com/in/jesse-tuckey">linkedin.com/in/jesse-tuckey</a></p>
+     <p>Barrie, Ontario, Canada<br>
+     <p>(705) 790-5757</p> </div>
+ </div></div>
 
 <div class="navbar">
+  <img src="images/jt.png" alt="georgian" width=4% height=7% class="left">
+  <a href="https://raw.githubusercontent.com/JesseTuckey/jessetuckey.github.io/main/jessetuckey.pdf" download="https://raw.githubusercontent.com/JesseTuckey/jessetuckey.github.io/main/jessetuckey.pdf">Download Resume PDF</a>
+<a href="#" class="left">Experience</a>
+<a href="#" class="left">Education</a>
+<a href="#" class="left">Skills</a>
+</div>
 
-   <a href="#" class="left">Education</a>
-   <a href="#" class="left">Skills</a>
-   <a href="#" class="left">Experience</a>
-   <a href="https://raw.githubusercontent.com/JesseTuckey/jessetuckey.github.io/main/jessetuckey.pdf" class="right" download="https://raw.githubusercontent.com/JesseTuckey/jessetuckey.github.io/main/jessetuckey.pdf">Resume</a>
 
+
+<body>
+
+<div class="skills">
+  <h1>Skills</h1>
+<div class="column">
+  <p>Strong communicator and collaborator.
+  <br>Excels in a fast paced work environment.
+  <br> Excellent with time management and meeting deadlines.
+  <br>Strong work ethic, punctual and positive attitude.</p>
 
 </div>
+<div class="row">
+ <div class="column">
+   <p>Proficient with Windows, Linux, Fedora and OS X operating systems.
+   <br>Experienced with all Microsoft Office applications, Photoshop and Visual Studio.
+   <br>Capable with computer troubleshooting and administration.
+   <br>G class drivers license and car.
+   <br>Health and safety Awareness Certificate.
+   <br>Microsoft Certification:70-698 Installing and Configuring Windows 10</p>
+ </div></div></div></div><br><br>
 
   <div class="education">
-    <h2>Education</h2>
-    <h4>St. Peters Catholic Secondary School (2015)</h4>
-    <p>Graduated with the Ontario Scholars award for having an 80% average.</p>
-    <h4>Trent University (2019)</h4>
-    <p>Bachelor's Degree for Computing and Information Systems.</p>
-<h4>Georgian College (2021)</h4>
-    <p>Computer Systems Technician</p>
+    <h1>Education</h1><br>
+
+<div class="column">
+  <h3>St. Peters Catholic Secondary School (2015)</h3>
+  <p>Graduated with the Ontario Scholars award for having an 80% average.</p>
 </div>
+<div class="row">
+ <div class="column">
+   <img src="images/stpetes.jpg" alt="petes" style="width:100%;height:400px;">
+ </div>
+ </div>
+ <br><br>
 
-  <div class="skills">
-    <h2>Skills</h2>
-    <p>Strong communicator and collaborator.
-    <br>Excels in a fast paced work environment.
-    <br> Excellent with time management and meeting deadlines.
-    <br>Strong work ethic, punctual and positive attitude.</p>
-
-    <br>
-
-    <p>Proficient with Windows, Linux, Fedora and OS X operating systems. <br>
-
-<br>Experienced with all Microsoft Office applications, Photoshop and Visual Studio.
-<br>Capable with computer troubleshooting and administration.
-<br>G class drivers license and car.
-<br>Health and safety Awareness Certificate.
-<br>Microsoft Certification:70-698 Installing and Configuring Windows 10</p>
+   <div class="column">
+     <h3>Trent University (2019)</h3>
+     <p>Bachelor's Degree for Computing and Information Systems.</p>
 </div>
+<div class="row">
+ <div class="column">
+   <img src="images/trentu.jfif"  alt="trent" style="width:698px;height:400px;">
+ </div>
+ </div>
+<br><br>
 
+   <div class="column">
+     <h3>Georgian College (2021)</h3>
+     <p>Computer Systems Technician</p>
+</div>
+<div class="row">
+ <div class="column">
+   <img src="images/georgian.jfif" alt="georgian" style="width:100%">
+ </div></div>
+</div><br><br>
 
   <div class="experience">
-    <h2>Experience</h2>
-    <h4>Customer Service Representative. June, 2019 </h4>
-<h5>Baker Real Estate Incorporated (United Building project) - 741 University Ave. </h5> Toronto, Ontario.
-Responsible for new and existing customer relations, provided information and
-acquired attendees for a commercial real estate presentation.
-Database and spreadsheet management and manipulation.
-Formal office environment.
-Event preparation.
-<br>
+<h1>Experience</h1><br><br>
 
-<h4>Production Associate. May 2016 – Present</h4>
-<h5>Fresh Mix Limited - 530 Welham Rd, Barrie, Ontario.</h5>
-Collaborative work environment.
-Prepared, cleaned and packaged produce.
-Inventory managed and organized.
-Worked with hazardous cleaning materials.
-Physical labour and heavy lifting.
-<br>
+<img src="images/baker.png" alt="baker" float=right width=10% height=5%>
+<h2>Customer Service Representative. June, 2019 </h2>
+<h3>Baker Real Estate Incorporated (United Building project) - 741 University Ave. Toronto, Ontario.</h3>
+<p><br>
+Responsible for new and existing customer relations, provided information and acquired attendees for a commercial real estate presentation.<br>
+Database and spreadsheet management and manipulation.<br>
+Formal office environment.<br>
+Event preparation.</p>
+<br><hr><br>
 
-<h4>Cashier and Crew Member.  Sept 2013 – May 2016. </h4>
-<h5>McDonald’s - 347 Yonge Street, Barrie, On.</h5>
-Exceptional customer service skills.
-Collaborated,  maintained a fast and high quality level of service.
-Received orders from customers and inputed their selections into the restaurant’s computer systems.
-Inventory Management.
+<img src="images/freshmix.png" alt="freshmix" float=right width=10% height=5%>
+<h2>Production Associate. May 2016 – Present</h2>
+<h3>Fresh Mix Limited - 530 Welham Rd, Barrie, Ontario.</h3>
+<p>Collaborative work environment.<br>
+Prepared, cleaned and packaged produce.<br>
+Inventory managed and organized.<br>
+Worked with hazardous cleaning materials.<br>
+Physical labour and heavy lifting.</p>
+<br><hr><br>
+
+<img src="images/mcdons.png" alt="freshmix" float=right width=10% height=5%>
+<h2>Cashier and Crew Member.  Sept 2013 – May 2016. </h2>
+<h3>McDonald’s - 347 Yonge Street, Barrie, On.</h3>
+<p>Exceptional customer service skills.<br>
+Collaborated,  maintained a fast and high quality level of service.<br>
+Received orders from customers and inputed their selections into the restaurant’s computer systems.<br>
+Inventory Management.<br>
 Handled monetary transactions. </p>
-
+<br><br>
 </div>
-
+</div>
 <div class="footer">
   <h5>Webpage created by Jesse Tuckey</h5>
 </div>
